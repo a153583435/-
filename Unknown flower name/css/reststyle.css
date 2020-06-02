@@ -1,0 +1,8 @@
+ol,ul,li,div,body,h1{
+    margin: 0;padding: 0;
+}
+a{text-decoration: none  }
+ol,ul,li{list-style: none}
+body{padding: 0;margin: 0;text-align: center;color: #333;font-size: 14px;}
+img,input{
+    border:none;vertical-align: middle;}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>未闻花名首页</title>
+    <meta name="viewport" content="initial-scale=1.0,width=device-width" />
+    <script src="../js/js.js"></script>
+    <style>
+        body{
+            background-color: skyblue;
+            cursor: pointer;
+        }
+/*pc端*/
+        @media screen and (min-width: 992px){
+            .mobile{
+                width: 0;
+                height: 0;
+                overflow: hidden;
+            }
+            h2,h3{
+                text-align: center;
+                font-weight: normal;
+                font-family: 隶书;
+                font-size: 30px;
+                color: white;
+            }
+            p{
+                text-align: center;
+                font-family: 楷体;
+                font-size: 25px;
+            }
+            h2:hover{
+                color: orange;
+            }
+            h3:hover{
+                color: orange;
+            }
+        }
+/*手机端*/
+        @media screen and (max-width: 991px){
+            .pc{
+                width: 0;
+                height: 0;
+                overflow: hidden;
+            }
+            h2,h3{
+                text-align: left;
+                font-weight: normal;
+                font-family: 隶书;
+                font-size: 20px;
+                color: white;
+            }
+            p{
+                text-align: left;
+                font-family: 楷体;
+                font-size: 15px;
+            }
+            h2:hover{
+                color: orange;
+            }
+            h3:hover{
+                color: orange;
+            }
+        }
+    </style>
+</head>
+<body onclick="a()">
+<p class="music">
+    <audio src="./music/music1.mp3" autoplay loop="1" controls="controls" preload id="music" hidden></audio>
+</p>
+<!--pc端-->
+<div class="pc">
+    <h2>从未年轻过的人一定无法理会这个世界的偏见</h2>
+    <h3>我们被世俗拆散，</h3>
+    <h3>也要为爱情勇往直前。</h3>
+    <h3>我们被房价羞辱，</h3>
+    <h3>也要让简陋的现实变得温暖。</h3>
+    <h3>我们被权威漠视，</h3>
+    <h3>也要为自己的天份保持骄傲。</h3>
+    <h3>我们被平庸折磨，</h3>
+    <h3>也要开始说走就走的冒险。</h3>
+    <h2>所谓的光辉岁月并不是后来闪耀的日子，而是你在无人问津是对梦想的偏执，你是否有勇气忠于自己？</h2>
+<p>在孤单与寂寞的时候我常常选择一个人行走，静静的看看天，默默的品读云卷云舒的静美，也常常会有风掠过，
+    带着各种各样的花的气息，在自己还没有尽情享受时，常常会发现那洒落一地的残花。一条青石小径上满满的都是，
+    每每此时都不知该如何一一拾起？ ?没有色彩的夜，显得有些寂寥，风悄悄的叩响我的窗棂，我端坐与此，
+    就像沧海中的一粒沙，不段的沉沦沉沦……..在人生这条坎坷不平的道路上，我一次次的跌倒，又一次次的受伤
+    ，一颗心觉的好痛好痛。那飘荡着的灵魂更是无处安放。</p>
+</div>
+<div class="mobile">
+    <h2>从未年轻过的人一定无法理会这个世界的偏见</h2>
+    <h3>我们被世俗拆散，</h3>
+    <h3>也要为爱情勇往直前。</h3>
+    <h3>我们被房价羞辱，</h3>
+    <h3>也要让简陋的现实变得温暖。</h3>
+    <h3>我们被权威漠视，</h3>
+    <h3>也要为自己的天份保持骄傲。</h3>
+    <h3>我们被平庸折磨，</h3>
+    <h3>也要开始说走就走的冒险。</h3>
+    <h2>所谓的光辉岁月并不是后来闪耀的日子，而是你在无人问津是对梦想的偏执，你是否有勇气忠于自己？</h2>
+    <p>在孤单与寂寞的时候我常常选择一个人行走，静静的看看天，默默的品读云卷云舒的静美，也常常会有风掠过，
+        带着各种各样的花的气息，在自己还没有尽情享受时，常常会发现那洒落一地的残花。一条青石小径上满满的都是，
+        每每此时都不知该如何一一拾起？ ?没有色彩的夜，显得有些寂寥，风悄悄的叩响我的窗棂，我端坐与此，
+        就像沧海中的一粒沙，不段的沉沦沉沦……..在人生这条坎坷不平的道路上，我一次次的跌倒，又一次次的受伤
+        ，一颗心觉的好痛好痛。那飘荡着的灵魂更是无处安放。</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "584814",
+      "name": "充值",
+      "font_class": "chongzhi",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "667135",
+      "name": "首页",
+      "font_class": "1",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "1718355",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "f034f",
+      "unicode_decimal": 983887
+    },
+    {
+      "icon_id": "3005659",
+      "name": "稿件-作者",
+      "font_class": "gaojian-zuozhe",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "4838215",
+      "name": "广告 公关",
+      "font_class": "guanggaogongguan",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "6894483",
+      "name": "文艺工作者",
+      "font_class": "wenyigongzuozhe",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "7333006",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "12296951",
+      "name": "出行",
+      "font_class": "chuhang",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}
