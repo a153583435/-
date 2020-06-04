@@ -1,0 +1,577 @@
+/*重置*/
+ol,ul,li,div,body,h1,h2,h3,h4,h5,h6{
+    margin: 0;padding: 0;}
+a{text-decoration: none}
+ol,ul,li{list-style: none}
+.meizu{
+    width: 100%;
+    margin: 0 auto;
+}
+/*导航栏开始*/
+.nav{
+    width: 100%;height: 82px;background-color: white;
+}
+.wrap{
+    width: 1240px;
+    margin: 0 auto;
+}
+.nav ul li{
+    display: inline;
+}
+.nav-left{
+    float: left;
+}
+.nav-left>h2{
+    line-height: 82px;margin-left: 60px;margin-right: 150px;
+     color: #00beff;
+}
+.nav-contion{
+    margin: 0 auto 0 40px;
+}
+.nav-contion>ul li:hover a{
+    color: red;
+}
+.nav-contion a{line-height: 82px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight:bolder;
+}
+.seach{
+    padding-right: 20px;
+}
+.nav-contion ul li:last-child{
+
+}
+.phone_hidden,.acoustics_hidden,.parts_hidden,.life_hidden{
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: 0;top: 82px;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 1s;
+
+}
+.nav-contion .phone:hover .phone_hidden{
+    height: 183px;
+}
+.nav-contion .acoustics:hover .acoustics_hidden{
+    height: 183px;
+}
+.nav-contion .parts:hover .parts_hidden{
+    height: 183px;
+}
+.nav-contion .life:hover .life_hidden{
+    height: 183px;
+}
+/* 隐藏展示块开始*/
+.nav-contion .wrap>ul li{
+    width: 142px;
+    height: 156px;
+    margin-left: 10px;
+    float: left;position: relative;
+
+}
+.nav-contion .wrap>ul>li>a img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 11px;
+    top: 5px;
+
+}
+.nav-contion .wrap>ul>li>P{
+    width: 140px;height: 300px;
+    font-size: 15px;
+    text-align: center;
+    text-overflow: ellipsis;white-space: nowrap;overflow: hidden;
+    opacity: 1;
+    position: absolute;
+    top: 100px;
+}
+.nav-contion .wrap>ul>li>span{
+    color: red;
+    position: absolute;
+    text-align: center;
+    left: 35px;
+    top: 136px;
+}
+.parts_hidden>.wrap>ul:first-child{
+    margin-left: 71px;
+}
+.life_hidden .wrap>ul:first-child{
+    margin-left: 71px;
+}
+/*隐藏展示块结束*/
+/*导航栏结束*/
+/*轮播图开始*/
+.lunbotu{
+    width: 100%;
+    height: 680px;
+    background: url("../images/lunbotu_1.jpg") -560px;
+    background-size: cover;
+    -webkit-animation: lunbotu 40s infinite alternate;
+}
+@-webkit-keyframes lunbotu {
+    12.5%{
+        background-image: url("../images/lunbotu_1.jpg");
+    }
+    25%{
+        background-image: url("../images/lunbotu_2.jpg");
+    }
+    37.5%{
+        background-image: url("../images/lunbotu_3.jpg");
+    }
+    50%{
+        background-image: url("../images/lunbotu_4.jpg");
+    }
+    62.5%{
+        background-image: url("../images/lunbotu_5.jpg");
+    }
+    75%{
+        background-image: url("../images/lunbotu_6.jpg");
+    }
+    87.5%{
+        background-image: url("../images/lunbotu_7.jpg");
+    }
+    100%{
+        background-image: url("../images/lunbotu_8.jpg");
+    }
+}
+/*轮播图结束*/
+/*魅族热销产品开始*/
+.sale{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+.sale_content{
+    width: 1240px;
+    height: 227px;
+}
+.sale_content>ul li{
+    width: 310px;
+    height: 186px;
+    float: left;position: relative;
+}
+.sale_content ul li a>img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: 95px;
+}
+.text_box{
+    margin-top: 130px;text-align: center;
+}
+.text_box em>a{color: #333;font-size: 18px;}
+.text_box p>a{color: #999;font-size: 14px;}
+/*魅族手机热销产品结束*/
+.biaoti{
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.biaoti h3{text-align: center; line-height: 43px}
+/*魅族手机广告开始*/
+.phone_poster{
+    width:100% ;
+    background-color: #e5e5e5;
+}
+.phonepost_top>img{
+    width: 100%;
+    background-size: cover;
+}
+/*魅族手机广告结束*/
+/*魅族手机热销展品开始*/
+.Exhibt{
+    width: 100%;
+    height: 1390px;
+    background-color: white;
+}
+.hibit{
+    width: 1230px;
+    margin: 0 auto;
+    height: 1390px;
+    background-color: white;
+}
+.hibit_top>div{
+    width: 615px;
+    height: 610px;
+    background-color: #ffffff;float: left;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.hibit_top>div>a>img{
+    width: 460px;
+    height: 460px;
+}
+.goods-name a{
+    color:#333;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.goods-desc a{
+    color:#333;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.goods-price a{
+    color:#333;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.hibit_bottom .wrap>div{
+    width:303px;
+    height: 375px;
+    background-color: white;
+    float: left;margin-right: 9px;
+    text-align: center;
+    margin-top: 10px;
+}
+.hibit_bottom .wrap .four,.hibit_bottom .wrap .eight{
+    margin-right: 0;
+}
+.hibit_bottom .wrap>div>a>img{
+    width: 230px;
+    height: 230px;
+}
+.hibit_bottom .wrap>div>span{
+    display: block;
+}
+.hibit_bottom .wrap>div .span_name a{
+    font-size: 20px;padding-top: 10px;
+    color: #333;
+}
+.hibit_bottom .wrap>div .span-desc a{
+    color: #999999;
+}
+.hibit_bottom .wrap>div .span-price a{
+    color: red;
+}
+.hibit_bottom .wrap>div .span-price a:hover{
+    color: white;
+}
+.hibit_bottom .wrap>div:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    transition: all .5s;
+}
+/*魅族手机热销展品结束*/
+/*魅族声学标题开始*/
+.shengxuebt{
+    background-size: cover;
+    height: 45px;
+}
+/*魅族声学标题结束*/
+/*魅族声学产品展示开始*/
+.phonisc_box{
+    width: 100%;
+    height: 1155px;
+}
+.phonisc{
+    width: 1240px;
+    margin: 0 auto;
+}
+.phonisc_left{
+    width: 303px;
+    height: 1155px;
+    margin: 0 auto;
+    float: left;
+    background-color: #f4f4f4;
+}
+.phonisc_left>div{
+    width: 303px;
+    height: 375px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.phonisc_left>div>a>img{
+    width: 303px;
+    height: 375px;
+}
+.phonisc_left .phonisc_text {
+    display: block;
+    position: absolute;
+    left: 7px;
+    top: 220px;
+}
+.phonisc_text>p{
+    text-align: center;
+}
+.phonisc-name a{
+    font-size: 21px;
+    color: white;
+    font-weight: 700;
+}
+.phonisc-desc a{
+    font-size: 16px;
+    color: #fff;
+}
+.phonisc-price a{
+    font-size: 24px;
+    color: #ebce6b;
+}
+.phonisc_right{
+    width: 937px;
+    height: 1155px;
+    background-color: #f4f4f4;
+    float: right;
+}
+.phonisc_right>div{
+    width: 303px;
+    height: 375px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    float: left;
+    background-color: white;
+}
+.phonisc_right>div>a>img{
+    width: 230px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.phonisc_right>div:nth-child(1),.phonisc_right>div:nth-child(4),.phonisc_right>div:nth-child(7){
+    margin-left: 10px;
+}
+.phonisc_right>div:nth-child(3),.phonisc_right>div:nth-child(6),.phonisc_right>div:nth-child(9){
+    margin-right: 0;
+}
+.phonisc_right>div span{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.phonisc_right .phoneisc-name a{
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+.phonisc_right .phoneisc-desc a{
+    font-size: 14px;
+    color: #999;
+}
+.phonisc_right .phoneisc-price a{
+    font-size: 22px;
+    color: #c00;
+}
+.phonisc_right .phoneisc-price a s{
+    font-size: 14px;
+    color: #999;
+}
+.phonisc_right>div:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    transition: all .5s;
+}
+/*魅族声学产品展示结束*/
+/*魅族智能配件产品展示开始*/
+.fitting{
+    width: 100%;
+    height: 770px;
+}
+.fitting_left{
+    float: left;
+    background-color: #f4f4f4;
+}
+.fitting_left>ul>li{
+    width: 303px;
+    height: 375px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.fitting_left>ul>li>img{
+    width: 303px;
+    height: 375px;
+}
+.fitting-text{
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+.fitting-text>p{
+   margin: 5px 0;
+    margin-left: 80px;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+}
+.fitting-text .goods-name a{
+    font-size: 21px;
+    color: white;
+}
+.fitting-text .goods-desc a{
+    font-size: 12px;
+    color: white;
+}
+.fitting-text .goods-price a{
+    font-size: 22px;
+    color: blue;
+}
+.fitting-text .goods-price a s{
+    color: white;
+}
+.fitting_left .xg .fitting-text p{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.fitting_right{
+    width: 937px;
+    height: 770px;
+    float: right;
+    background-color: #f4f4f4;
+}
+.fitting_right>div{
+    width: 303px;
+    height: 375px;
+    float: left;
+    background-color: white;
+    position: relative;
+    margin-right: 9px;
+    margin-bottom: 10px;
+}
+.fitting_right .three,.fitting_right .six{
+    margin-right: 0;
+}
+.fitting_right .one,.fitting_right .four{
+    margin-left: 9px;
+}
+.fitting_right>div>a>img{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    left: 36.5px;
+    top: 5px;
+}
+.fitting_right .box-info{
+    margin-top: 255px;
+}
+.fitting_right>div span{
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.fitting_right .box-info .goods-name a{
+    color: #333;
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.fitting_right .box-info .goods-desc a{
+    color: #999;
+    font-size: 14px;
+}
+.fitting_right .box-info .goods-price a{
+    font-size: 22px;
+    color: red;
+}
+.fitting_right .box-info .goods-price a>s{
+    color: #999;
+    font-size: 14px;
+}
+.fitting_right>div:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    transition: all .5s;
+}
+/*魅族智能配件产品展示结束*/
+/*魅族生活周边展示开始*/
+.life_ambitus{
+    width: 100%;
+    height: 770px;
+}
+.life_ambitus .wrap .life_ambitus-left{
+    width: 303px;
+    height: 770px;
+    float: left;
+    background-color: #f4f4f4;
+}
+.life_ambitus .wrap .life_ambitus-left>div{
+    width: 303px;
+    height: 375px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.life_ambitus .wrap .life_ambitus-left img{
+    width: 303px;
+    height: 375px;
+}
+.life_ambitus .wrap .life_ambitus-left .life-text{
+    color: white;
+    position: absolute;
+    top: 230px;
+    left: 70px;
+    text-align: center;
+}
+.life_ambitus .wrap .life_ambitus-left .life-text>.life_ambitus-name a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.life-text .life_ambitus-desc a{
+    font-size: 12px;
+    color: white;
+}
+.life-text .life_ambitus-price a{
+    font-size: 22px;
+    color: red;
+}
+.life_bottom>.life-text{
+    margin-left: -65px;
+}
+.life_ambitus .wrap .life_ambitus-right{
+    width: 937px;
+    height: 770px;
+    float: left;
+    background-color: #f4f4f4;
+}
+.life_ambitus .wrap .life_ambitus-right>ul>li{
+    width: 303px;
+    height: 375px;
+    float: left;
+    background-color: white;
+    margin-left: 9px;
+    margin-bottom: 10px;
+}
+.life_ambitus-right>ul>li a img{
+    width: 230px;
+    height: 230px;
+    margin: 10px 0 10px 36.5px;
+}
+.life_ambitus-right>ul>li .box-info>span{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.life_ambitus-right>ul>li .box-info .life_ambitus-right-name a{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    font-family: "楷体";
+}
+.life_ambitus-right>ul>li .box-info .life_ambitus-right-desc a{
+    font-size: 14px;
+    color: #999;
+}
+.life_ambitus-right>ul>li .box-info .life_ambitus-right-price a{
+    font-size: 22px;
+    color: red;
+}
+.life_ambitus-right>ul>li .box-info .life_ambitus-right-price a s{
+    font-size: 14px;
+    color: #999;
+}
+.life_ambitus-right>ul>li:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+    transition: all .5s;
+}
+/*魅族生活周边展示结束*/
+/*社区热帖开始*/
+h3{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: "楷体";
+}
+/*社区热帖结束*/
